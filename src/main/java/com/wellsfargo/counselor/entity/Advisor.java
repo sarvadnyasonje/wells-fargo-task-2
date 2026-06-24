@@ -10,6 +10,7 @@ import jakarta.persistence.Id;
 public class Advisor {
 
     @Id
+
     @GeneratedValue()
     private long advisorId;
 
@@ -27,7 +28,6 @@ public class Advisor {
 
     @Column(nullable = false)
     private String email;
-
     protected Advisor() {
 
     }
